@@ -31,11 +31,12 @@ html, body{
     font-size: 16px;
     border-radius: 40px;
 }
-
+#menu2{
+    display: none;
+}
 #intro{
     width: 100%;
     height: 50%;
-    /* background-color: bisque; */
     padding: 50px 60px;
 }
 
@@ -172,20 +173,6 @@ html, body{
 {
     padding-left: 42px;
 }
-
-          /* or we can directly use the above line of code*/
-
-/* .elem:nth-child(1)
-{
-    border-right: 2px solid black;background-color: red;
-}
-.elem:nth-child(2)
-{
-    background-color:burlywood;
-} */
-
-
-
 .work2-part .elem h4{
     font-size: 32px;
     margin-bottom: 8px;
@@ -196,4 +183,344 @@ html, body{
     font-size: 14px;
     /* font-weight: 550; */                /*h4 ki heading se thoda sa hi km fnot wight only and we give color thoda sa gray*/
     color: rgb(56, 54, 54);
+}
+
+@media (max-width:600px) {
+    #nav{
+        width: 100%;
+        padding: 18px 10px  0px 0px;
+    }
+    #menu1{
+        display: none;
+    }
+    #nav #nav1{
+        padding:12px 20px;
+        margin-left: 20px;                     
+        font-size: 3.5vmax;
+        font-weight: 400;
+        border-radius: 10vmax;
+    }
+    #nav #menu2{
+        display: block;
+        font-size: 3.5vmax;
+        font-weight: 400;
+        padding: 12px 14px;
+        border-radius: 50%;
+    }
+    #intro{
+        width: 100%;
+        height: 50%;
+        padding: 60px 25px;
+    }
+    #intro h1{
+        font-size: 70px;
+        line-height: 65px;            /* do sbdo ke bich ki distance*/
+        letter-spacing: -1px;
+        font-weight: 480;
+    }
+    #address{
+        margin-top: 10px;
+    }
+    #address h4{
+        display: none;
+    }
+    #address h3 {
+        font-size: 4.4vmax;
+        margin-top: 10px;
+        font-weight: 450;
+    }
+    #hero-image{
+        width: 104.2%;
+        height: 70%;
+        background-image: url(./img.webp);
+        background-size: cover;
+        background-position:center;
+        margin-top: 13vmax;
+    }
+    #about{
+        height:70%;
+        width:97%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column-reverse;
+        padding: 10px 5px;
+        margin-top: 15vmax;
+        gap: 43px;
+        margin-left: 15px;
+        border-bottom: 2px solid black;
+    }  
+    #about h2{
+        width: 99%;
+        font-size: 50px;
+        line-height: 47px;
+        letter-spacing: 0.4px;
+        font-weight: 500;
+    }
+    #about-part2 {
+        width: 100%;
+        height: 100%;
+        padding: 0px 2px;
+        border: none;
+        justify-content: space-evenly;
+        margin-left: 2px;
+        gap: 20px;
+    }
+    #about-part2 h3{
+        font-size: 33px;
+        font-weight: 500;
+    }
+    #icons i{
+        background-color: black;
+        color: #fff;
+        padding: 12px;
+        font-size: 28px;
+        border-radius: 50%;
+    }
+    #work{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        height: 100%;
+        padding: 5px 15px;
+        margin-top: 25px;
+        border: none;
+    }
+    #work1{
+        width: 100%;
+        height: 100%;
+        padding: 8px 2px 0px 10px;
+        border: none;
+    } 
+    #work h3{
+        font-size: 30px;
+        font-weight:500;
+    }
+    #work1 i{
+        font-size: 32px;
+        font-weight: 500;
+    }  
+    #work2{
+        width: 100%;
+        height: 100%;
+        padding:0px 10px;
+    }   
+    .work2-part{
+        display: flex;
+        flex-direction:column;
+        width: 100%;
+    }  
+    .work2-part:nth-child(1)          
+    {
+        border: none;
+        padding-bottom:0px ;
+    }
+    .work2-part:nth-child(2)        
+    {
+        padding-top:0px ;
+    } 
+    #work2 .elem{                             /*  #work2 .elem   isliye diya taki isko jayada priority mile     */
+        border-bottom: 2px solid black; 
+        padding-bottom: 35px;
+        padding-top: 35px;
+    }
+    #work .elem:nth-child(3){
+        border: none;
+    }
+    .work2-part .elem{
+        width: 100%;
+        height: 100%;
+    }
+    .work2-part .elem:nth-child(1){    
+        border: none;                        
+        padding-right: 0px;
+     }
+     .work2-part .elem:nth-child(2)
+    {
+        padding-left: 0px;
+    }
+    .work2-part .elem h4{
+        font-size: 35px;
+        margin-bottom: 7px;
+        font-weight: 500;             /* thoda sa hi bold krna h pr nhi ho rha h */
+    }
+    .work2-part .elem p{
+        font-size: 18px;
+        /* font-weight: 550; */                /*h4 ki heading se thoda sa hi km fnot wight only and we give color thoda sa gray*/
+        color: rgb(127, 113, 113);
+        line-height: 25px;
+        font-weight: 410;
+        letter-spacing: 1px;
+    }   
+}
+
+
+@media (max-height:600px) {
+    #nav{
+        width: 100%;
+        padding: 18px 10px  0px 0px;
+    }
+    #menu1{
+        display: none;
+    }
+    #nav #nav1{
+        padding:10px 18px;
+        margin-left: 20px;                     
+        font-size: 3.5vmax;
+        font-weight: 400;
+        border-radius: 10vmax;
+    }
+    #nav #menu2{
+        display: block;
+        font-size: 3.3vmax;
+        font-weight: 400;
+        padding: 11px 13px;
+        border-radius: 50%;
+    }
+    #intro{
+        width: 100%;
+        height: 50%;
+        padding: 35px 25px;
+    }
+    #intro h1{
+        font-size: 70px;
+        line-height: 65px;            /* do sbdo ke bich ki distance*/
+        letter-spacing: -1px;
+        font-weight: 480;
+    }
+    #address{
+        margin-top: 10px;
+    }
+    #address h4{
+        display: none;
+    }
+    #address h3 {
+        font-size: 4.2vmax;
+        margin-top: 10px;
+        font-weight: 450;
+    }
+    #hero-image{
+        width: 100%;
+        height: 60vmax;
+        background-image: url(./img.webp);
+        background-size: cover;
+        background-position:center;
+        margin-top: 15vmax;
+    }
+    #about{
+        height:70%;
+        width:95%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column-reverse;
+        padding: 12px 6px;
+        margin-top: 27vmax;
+        gap: 47px;
+        margin-left: 20px;
+        border-bottom: 2px solid black;
+    }  
+    #about h2{
+        width: 99%;
+        font-size: 50px;
+        line-height: 50px;
+        letter-spacing: 0.3px;
+        font-weight: 503;
+        padding-bottom: 8px;
+    }
+    #about-part2 {
+        width: 100%;
+        height: 100%;
+        padding: 0px 2px;
+        border: none;
+        justify-content: space-evenly;
+        margin-left: 5px;
+        gap: 20px;
+    }
+    #about-part2 h3{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    #icons i{
+        background-color: black;
+        color: #fff;
+        padding: 12px;
+        font-size: 25px;
+        border-radius: 50%;
+    }
+    #work{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        height: 100%;
+        padding: 5px 15px;
+        margin-top: 25px;
+        border: none;
+    }
+    #work1{
+        width: 100%;
+        height: 100%;
+        padding: 8px 2px 0px 10px;
+        border: none;
+    } 
+    #work h3{
+        font-size: 30px;
+        font-weight:500;
+    }
+    #work1 i{
+        font-size: 32px;
+        font-weight: 500;
+    }  
+    #work2{
+        width: 100%;
+        height: 100%;
+        padding:0px 10px;
+    }   
+    .work2-part{
+        display: flex;
+        flex-direction:column;
+        width: 100%;
+    }  
+    .work2-part:nth-child(1)          
+    {
+        border: none;
+        padding-bottom:0px ;
+    }
+    .work2-part:nth-child(2)        
+    {
+        padding-top:0px ;
+    } 
+    #work2 .elem{                             /*  #work2 .elem   isliye diya taki isko jayada priority mile     */
+        border-bottom: 2px solid black; 
+        padding-bottom: 35px;
+        padding-top: 35px;
+    }
+    #work .elem:nth-child(3){
+        border: none;
+    }
+    .work2-part .elem{
+        width: 100%;
+        height: 100%;
+    }
+    .work2-part .elem:nth-child(1){    
+        border: none;                        
+        padding-right: 0px;
+     }
+     .work2-part .elem:nth-child(2)
+    {
+        padding-left: 0px;
+    }
+    .work2-part .elem h4{
+        font-size: 36px;
+        margin-bottom: 7px;
+        font-weight: 500;             /* thoda sa hi bold krna h pr nhi ho rha h */
+    }
+    .work2-part .elem p{
+        font-size: 18px;
+        /* font-weight: 550; */                /*h4 ki heading se thoda sa hi km fnot wight only and we give color thoda sa gray*/
+        color: rgb(127, 113, 113);
+        line-height: 26.5px;
+        font-weight: 410;
+        letter-spacing: 1px;
+    }   
 }
