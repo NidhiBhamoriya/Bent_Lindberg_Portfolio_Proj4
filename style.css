@@ -33,6 +33,7 @@ html, body{
 }
 #menu2{
     display: none;
+    margin-left: 0px;
 }
 #intro{
     width: 100%;
@@ -188,14 +189,16 @@ html, body{
 @media (max-width:600px) {
     #nav{
         width: 100%;
-        padding: 18px 10px  0px 0px;
+        right: 7%;
+        top: 3%;
+        padding: 0px ;
     }
     #menu1{
         display: none;
     }
     #nav #nav1{
         padding:12px 20px;
-        margin-left: 20px;                     
+        margin-left: 2px;                     
         font-size: 3.5vmax;
         font-weight: 400;
         border-radius: 10vmax;
@@ -230,7 +233,7 @@ html, body{
         font-weight: 450;
     }
     #hero-image{
-        width: 104.2%;
+        width: 101%;
         height: 70%;
         background-image: url(./img.webp);
         background-size: cover;
@@ -358,7 +361,7 @@ html, body{
 @media (max-height:600px) {
     #nav{
         width: 100%;
-        padding: 18px 10px  0px 0px;
+        padding: 17px 10px  0px 0px;
     }
     #menu1{
         display: none;
