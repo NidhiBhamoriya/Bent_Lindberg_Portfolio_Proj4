@@ -2,8 +2,8 @@
 
 Responsive & decent portfolio of Bent Lindberg, a digital designer. Unlike the original portfolio of Bent, I didn't include any animations.
 
-https://github.com/user-attachments/assets/1a36d346-8406-4fdf-aa8c-a6ea08bf8641
+[Project4_video3.webm](https://github.com/user-attachments/assets/9539d111-b8b3-4660-bc06-b1e657527e0f)
 
-https://github.com/user-attachments/assets/bb692c9d-2fd0-4d27-9993-376cf1b2cee5
+[Project4_video1.webm](https://github.com/user-attachments/assets/f2a27a96-76f4-48f8-9c18-44ebe29578f1)
 
-https://github.com/user-attachments/assets/9544c626-b147-4641-ac05-c260faf23bd7
+[Project4_video2.webm](https://github.com/user-attachments/assets/ed3f1670-9f85-4efa-aea8-7678dabd0b84)
